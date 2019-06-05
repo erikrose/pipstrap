@@ -1,3 +1,14 @@
+.. note::
+
+   Pipstrap is no longer developed. It's been long enough since the release of
+   pip 8 that most deployments have been updated, and the increased popularity
+   of containers for deployment make it easier to start with an up-to-date pip.
+   Pipstrap has been adopted by Certbot for the moment, where it continues to
+   bring old systems up to date as part of certbot-auto. However, there's no
+   guarantee that it continues to work in the general case. Check out the
+   adopted version at
+   https://github.com/certbot/certbot/blob/master/letsencrypt-auto-source/pieces/pipstrap.py.
+
 ========
 Pipstrap
 ========
